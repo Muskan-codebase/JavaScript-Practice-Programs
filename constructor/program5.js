@@ -4,7 +4,7 @@ function Rectangle(length, width) {
 
     this.length = length;
     this.width = width;
-    this.display = function() {
+    this.display = function () {
         let area = this.length * this.width;
         console.log(`Are of rectangle is ${area}`);
     }
